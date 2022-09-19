@@ -1,5 +1,10 @@
 <h1>File Storage</h1>
 <% @users.each do|u| %>
-  <%=u.name%><br>
-  <%=u.mobile %>
-<% end %>
+  <div>
+    <%=u.name%><br>
+    <%=u.mobile %>
+    <br>
+  </div>
+<% end %><br>
+<%= render 'users/form'%><br>
+
